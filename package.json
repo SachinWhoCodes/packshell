@@ -1,0 +1,49 @@
+{
+  "name": "packshell",
+  "version": "0.1.1",
+  "description": "Encrypted .env sync for developer teams. Zero plaintext, zero trust.",
+  "type": "module",
+  "bin": {
+    "packshell": "./bin/packshell.js"
+  },
+  "files": [
+    "bin",
+    "src/cli",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node ./bin/packshell.js"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "secrets",
+    "secrets-management",
+    "encryption",
+    "cli",
+    "devops",
+    "environment-variables"
+  ],
+  "license": "MIT",
+  "author": "Acadable Labs",
+  "homepage": "https://packshell.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinWhoCodes/packshell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SachinWhoCodes/packshell/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "open": "^10.1.0",
+    "ora": "^8.1.1"
+  }
+}
