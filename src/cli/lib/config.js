@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import { CONFIG_PATH, LOCAL_PROJECT_PATH, LOCAL_STATE_PATH, readJsonFile, writeJsonFile } from "./paths.js";
 
-export const DEFAULT_API_URL = "https://packshell.vercel.app";
+export const DEFAULT_API_URL = "https://packshell.acadable.com";
 
 export function getConfig() {
   return readJsonFile(CONFIG_PATH, {});
